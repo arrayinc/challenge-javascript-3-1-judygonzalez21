@@ -10,7 +10,7 @@ function beerSong(n){
 
     for(let i = n; i >= 1; i--){
 
-        line += i + beer + wall + takeOne;
+        line += i + beer + wall + "\n" + takeOne + "\n";
 
          let oneDown = i - 1;
 
